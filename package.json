@@ -1,0 +1,21 @@
+{
+  "name": "aws-js-v3-sdk-s3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "testS3Retry": "vitest watch 'retryS3'"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.717.0",
+    "@smithy/util-retry": "^3.0.11",
+    "aws-sdk-client-mock": "^4.1.0",
+    "vitest": "^2.1.8"
+  }
+}
